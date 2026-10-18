@@ -4,6 +4,18 @@
 
 <img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
+## Architecture / How it Works
+
+```mermaid
+flowchart LR
+    A[User] --> B[Skills Introduction To Github]
+    B --> C{Logic}
+    C --> D[(Data)]
+    C --> E[Output]
+    D --> C
+```
+
+
 ### 🌟 You've successfully completed the exercise! 🌟
 
 ## 🚀 Share Your Success!
