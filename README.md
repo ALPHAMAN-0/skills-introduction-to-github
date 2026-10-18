@@ -7,12 +7,11 @@
 ## Architecture / How it Works
 
 ```mermaid
-flowchart LR
-    A[User] --> B[Skills Introduction To Github]
-    B --> C{Logic}
-    C --> D[(Data)]
-    C --> E[Output]
-    D --> C
+flowchart TD
+  Workflows --> Steps
+  Workflows --> Readme_File
+  Workflows --> Profile_File
+  Steps --> Images
 ```
 
 
